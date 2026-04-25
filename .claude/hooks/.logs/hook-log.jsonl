@@ -1,0 +1,427 @@
+{"ts":"2026-04-24T15:14:05.521Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"fetched","dur":1272,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:14:05.899Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":1751,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:27:10.753Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":589,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:27:11.019Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"fetched","dur":725,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:27:56.284Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T15:27:57.257Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":828,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:28:03.376Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/README.md\""}
+{"ts":"2026-04-24T15:28:03.417Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":16,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:28:06.277Z","hook":"scout-block","event":"PreToolUse","tool":"Glob","target":"**/*","note":"Pattern '**/*' is too broad for C:\\Users\\datng\\Desktop\\hom_nay_an_gi","dur":3,"status":"block","exit":2,"error":""}
+{"ts":"2026-04-24T15:28:06.298Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:28:09.727Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:28:09.741Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi\""}
+{"ts":"2026-04-24T15:28:52.335Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":921,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:28:52.610Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":1075,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:28:57.315Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi\""}
+{"ts":"2026-04-24T15:28:57.393Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":65,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:29:02.111Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":19,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:29:02.156Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:29:48.425Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T15:29:52.445Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:29:52.488Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/README.md\""}
+{"ts":"2026-04-24T15:29:52.638Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":16,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:29:52.645Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/prd.md\""}
+{"ts":"2026-04-24T15:29:58.450Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/package.json\""}
+{"ts":"2026-04-24T15:29:58.466Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":29,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:29:58.504Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":16,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:29:58.684Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":49,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:30:07.806Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T15:49:49.033Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/prd.md\""}
+{"ts":"2026-04-24T15:49:49.033Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":51,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:49:49.149Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:49:50.480Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T15:49:50.495Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:49:51.197Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"fetched","dur":659,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:50:47.302Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"clear","dur":556,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:51:02.589Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":238,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:51:02.999Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":634,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:51:11.951Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/README.md\""}
+{"ts":"2026-04-24T15:51:11.955Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:51:12.266Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi\""}
+{"ts":"2026-04-24T15:51:12.287Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":30,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:53:21.858Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":3,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T15:53:23.173Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":1320,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:53:27.554Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:53:27.565Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/prd.md\""}
+{"ts":"2026-04-24T15:53:27.927Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":16,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:53:27.949Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/.claude/skills/ck-plan/references/workflow-modes.md\""}
+{"ts":"2026-04-24T15:53:28.208Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/.claude/skills/ck-plan/references/scope-challenge.md\""}
+{"ts":"2026-04-24T15:53:28.225Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:53:49.693Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"Explore","note":"context-injected","dur":140,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:53:52.142Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:53:52.158Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:02.641Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:05.609Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:05.629Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":26,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:06.172Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:09.223Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:09.236Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":12,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:09.869Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:11.910Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:11.919Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:12.422Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:15.072Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/package.json\""}
+{"ts":"2026-04-24T15:54:15.101Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":29,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:15.528Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/App.tsx\""}
+{"ts":"2026-04-24T15:54:15.701Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/main.tsx\""}
+{"ts":"2026-04-24T15:54:15.723Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":64,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:15.858Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":39,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:15.877Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":23,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:15.929Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/tsconfig.json\""}
+{"ts":"2026-04-24T15:54:19.988Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":16,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:20.006Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/vite.config.ts\""}
+{"ts":"2026-04-24T15:54:20.142Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:20.167Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/.env.example\""}
+{"ts":"2026-04-24T15:54:20.630Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/index.css\""}
+{"ts":"2026-04-24T15:54:20.646Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/index.html\""}
+{"ts":"2026-04-24T15:54:20.725Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":56,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:20.735Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":23,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:24.176Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/CLAUDE.md\""}
+{"ts":"2026-04-24T15:54:24.235Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":18,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:54:24.396Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/prd.md\""}
+{"ts":"2026-04-24T15:54:24.421Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:56:36.239Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi\""}
+{"ts":"2026-04-24T15:56:36.281Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":36,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:56:37.546Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/.claude/skills/ck-plan/references/plan-organization.md\""}
+{"ts":"2026-04-24T15:56:37.633Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":21,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:56:37.720Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/.claude/skills/ck-plan/references/output-standards.md\""}
+{"ts":"2026-04-24T15:56:37.728Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":47,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:59:00.417Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:59:00.457Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/plan.md\""}
+{"ts":"2026-04-24T15:59:00.466Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":46,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:59:00.999Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T15:59:01.073Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":21,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:59:02.059Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"fetched","dur":1072,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:59:40.763Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:59:40.788Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-01-modularize-and-data.md\""}
+{"ts":"2026-04-24T15:59:40.834Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":40,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:59:41.576Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T15:59:41.581Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T15:59:41.686Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":22,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:00:17.268Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:00:17.294Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-02-deep-link-integration.md\""}
+{"ts":"2026-04-24T16:00:17.443Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:00:18.139Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:00:18.174Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:00:18.177Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:01:01.183Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:01:01.243Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-03-filters-and-preferences.md\""}
+{"ts":"2026-04-24T16:01:01.361Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":21,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:01:02.146Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:01:02.217Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"reminder-injected","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:01:02.321Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:01:39.691Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:01:39.723Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-04-integration-and-qa.md\""}
+{"ts":"2026-04-24T16:01:39.805Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":25,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:01:40.867Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:01:41.043Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:01:41.071Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:01:45.526Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:01:45.536Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/.claude/scripts/set-active-plan.cjs\""}
+{"ts":"2026-04-24T16:05:48.410Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"fetched","dur":725,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:06:39.538Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"journal-writer","note":"context-injected","dur":238,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:06:56.801Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":1,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:06:56.809Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":20,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:06:56.819Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/docs/journals/260424-planning-phase2-find-and-order.md\""}
+{"ts":"2026-04-24T16:06:57.189Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:06:57.288Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:06:57.299Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:26:50.262Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":100,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:26:50.748Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":598,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:26:56.503Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/.claude/skills/cook/references/workflow-steps.md\""}
+{"ts":"2026-04-24T16:26:56.509Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":12,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:26:56.513Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:26:56.518Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/plan.md\""}
+{"ts":"2026-04-24T16:27:22.021Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/App.tsx\""}
+{"ts":"2026-04-24T16:27:22.021Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:27:22.341Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:27:22.350Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/main.tsx\""}
+{"ts":"2026-04-24T16:27:22.695Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:27:22.701Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/vite.config.ts\""}
+{"ts":"2026-04-24T16:28:30.338Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:28:30.343Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/index.css\""}
+{"ts":"2026-04-24T16:28:39.867Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":2,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:28:39.870Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/types/dish-types.ts\""}
+{"ts":"2026-04-24T16:28:39.867Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:28:40.172Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:28:40.179Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:28:40.174Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"reminder-injected","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:07.119Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:07.127Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/data/dishes-data.ts\""}
+{"ts":"2026-04-24T16:30:07.141Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":1,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:07.361Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:07.375Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:07.381Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:16.486Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:16.488Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-meal-history.ts\""}
+{"ts":"2026-04-24T16:30:16.498Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":17,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:16.659Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:16.665Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:16.672Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:22.754Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":1,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:22.770Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-preferences.ts\""}
+{"ts":"2026-04-24T16:30:22.775Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:22.921Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:22.931Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":3,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:22.933Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:30.244Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":2,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:30.249Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:30.256Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-geolocation.ts\""}
+{"ts":"2026-04-24T16:30:30.430Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:30.433Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:30.437Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:37.107Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:37.108Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":1,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:37.122Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-calendar.ts\""}
+{"ts":"2026-04-24T16:30:37.344Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:37.346Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:37.353Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:50.231Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":2,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:50.233Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-ai-suggestion.ts\""}
+{"ts":"2026-04-24T16:30:50.247Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:50.559Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:50.563Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:50.564Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:58.357Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:58.361Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/utils/deep-links.ts\""}
+{"ts":"2026-04-24T16:30:58.366Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":2,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:58.535Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:58.537Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:30:58.544Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:09.139Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:09.142Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:09.151Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/menu-list-view.tsx\""}
+{"ts":"2026-04-24T16:31:09.312Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:09.323Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":3,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:09.325Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:13.203Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":1,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:13.244Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/meal-history-section.tsx\""}
+{"ts":"2026-04-24T16:31:13.243Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":37,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:13.402Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:13.408Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:13.413Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:33.950Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":2,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:33.959Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/filter-panel.tsx\""}
+{"ts":"2026-04-24T16:31:33.965Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:34.176Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:34.179Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:34.183Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:58.126Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":2,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:58.135Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/suggestion-display.tsx\""}
+{"ts":"2026-04-24T16:31:58.155Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":21,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:58.363Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:58.396Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:31:58.996Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"fetched","dur":645,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:32:28.827Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:32:28.827Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-geolocation.ts\""}
+{"ts":"2026-04-24T16:33:10.439Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:33:10.453Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:33:10.494Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Edit","target":"","note":"tracked-edit","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:33:43.271Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":2,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:33:43.285Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/App.tsx\""}
+{"ts":"2026-04-24T16:33:43.301Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:33:43.475Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:33:43.483Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:33:43.496Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:34:13.668Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:34:13.678Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi\""}
+{"ts":"2026-04-24T16:34:58.160Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:35:06.208Z","hook":"task-completed-handler","event":"TaskCompleted","tool":"","target":"","note":"missing-team-name","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:35:06.210Z","hook":"task-completed-handler","event":"TaskCompleted","tool":"","target":"","note":"missing-team-name","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:35:06.596Z","hook":"task-completed-handler","event":"TaskCompleted","tool":"","target":"","note":"missing-team-name","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:35:16.663Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:35:16.674Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi\""}
+{"ts":"2026-04-24T16:35:16.943Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi\""}
+{"ts":"2026-04-24T16:35:16.946Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:35:29.959Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"tester","note":"context-injected","dur":107,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:35:32.806Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":18,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:35:32.810Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:35:32.812Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/README.md\""}
+{"ts":"2026-04-24T16:35:32.808Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/package.json\""}
+{"ts":"2026-04-24T16:35:32.962Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi\""}
+{"ts":"2026-04-24T16:35:32.965Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:35:36.368Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"allowed-command","dur":1,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:35:36.373Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:35:43.515Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:35:43.651Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"allowed-command","dur":1,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:35:43.654Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:52:46.874Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:52:46.879Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/filter-panel.tsx\""}
+{"ts":"2026-04-24T16:52:51.619Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:52:51.623Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/types/dish-types.ts\""}
+{"ts":"2026-04-24T16:52:51.896Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:52:51.897Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/data/dishes-data.ts\""}
+{"ts":"2026-04-24T16:52:55.905Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:52:55.907Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:52:56.376Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-meal-history.ts\""}
+{"ts":"2026-04-24T16:52:56.380Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":26,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:52:56.520Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:52:56.544Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-preferences.ts\""}
+{"ts":"2026-04-24T16:52:57.013Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"fetched","dur":581,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:00.263Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:00.274Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-geolocation.ts\""}
+{"ts":"2026-04-24T16:53:00.301Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:00.304Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-calendar.ts\""}
+{"ts":"2026-04-24T16:53:00.600Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:00.601Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-ai-suggestion.ts\""}
+{"ts":"2026-04-24T16:53:03.916Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:03.924Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/utils/deep-links.ts\""}
+{"ts":"2026-04-24T16:53:04.370Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:04.375Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/suggestion-display.tsx\""}
+{"ts":"2026-04-24T16:53:04.731Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:04.733Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/meal-history-section.tsx\""}
+{"ts":"2026-04-24T16:53:07.733Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:07.738Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/menu-list-view.tsx\""}
+{"ts":"2026-04-24T16:53:07.979Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:07.989Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/App.tsx\""}
+{"ts":"2026-04-24T16:53:11.396Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:11.397Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-ai-suggestion.ts\""}
+{"ts":"2026-04-24T16:53:11.588Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:11.589Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:12.098Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:38.052Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:38.064Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":12,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:38.076Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/reports/tester-260424-2335-validation-report.md\""}
+{"ts":"2026-04-24T16:53:38.330Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:38.334Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:38.345Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"reminder-injected","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:58.818Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:53:58.824Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/filter-panel.tsx\""}
+{"ts":"2026-04-24T16:54:02.960Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:54:02.988Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Edit","target":"","note":"tracked-edit","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:54:02.993Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:54:06.281Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:54:06.286Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/filter-panel.tsx\""}
+{"ts":"2026-04-24T16:54:06.499Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:54:06.515Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Edit","target":"","note":"tracked-edit","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:54:06.523Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:54:12.604Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:54:12.611Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/App.tsx\""}
+{"ts":"2026-04-24T16:54:12.873Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:54:12.880Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Edit","target":"","note":"tracked-edit","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:54:12.917Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:54:16.506Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:54:16.516Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi\""}
+{"ts":"2026-04-24T16:56:14.285Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/tsconfig.json\""}
+{"ts":"2026-04-24T16:56:14.292Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":17,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:56:50.860Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":2,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:56:50.860Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:56:50.866Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/filter-panel.tsx\""}
+{"ts":"2026-04-24T16:56:51.103Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:56:51.107Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:56:51.128Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:56:54.051Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-24T16:56:54.059Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi\""}
+{"ts":"2026-04-24T16:57:00.973Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:57:03.871Z","hook":"task-completed-handler","event":"TaskCompleted","tool":"","target":"","note":"missing-team-name","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-24T16:57:19.646Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"code-reviewer","note":"context-injected","dur":161,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T04:05:04.511Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"clear","dur":82,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:10.483Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":128,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:10.861Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"http-401","dur":502,"status":"warn","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:17.436Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:17.444Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/README.md\""}
+{"ts":"2026-04-25T05:07:17.871Z","hook":"scout-block","event":"PreToolUse","tool":"Glob","target":"**/*.md","note":"Pattern '**/*.md' is too broad for C:\\Users\\datng\\Desktop\\hom_nay_an_gi\\plans\\260424-2251-phase2-find-and-order","dur":2,"status":"block","exit":2,"error":""}
+{"ts":"2026-04-25T05:07:17.873Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:21.771Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:21.793Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order\""}
+{"ts":"2026-04-25T05:07:22.176Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:25.115Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:25.131Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/plan.md\""}
+{"ts":"2026-04-25T05:07:28.354Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-01-modularize-and-data.md\""}
+{"ts":"2026-04-25T05:07:28.360Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:28.730Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:28.735Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-02-deep-link-integration.md\""}
+{"ts":"2026-04-25T05:07:33.132Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:33.136Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-03-filters-and-preferences.md\""}
+{"ts":"2026-04-25T05:07:33.732Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-04-integration-and-qa.md\""}
+{"ts":"2026-04-25T05:07:33.734Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:37.608Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:37.617Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/App.tsx\""}
+{"ts":"2026-04-25T05:07:44.275Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:44.281Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:44.670Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:50.206Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:50.207Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/types/dish-types.ts\""}
+{"ts":"2026-04-25T05:07:50.563Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/data/dishes-data.ts\""}
+{"ts":"2026-04-25T05:07:50.576Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:54.819Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:54.829Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-meal-history.ts\""}
+{"ts":"2026-04-25T05:07:55.869Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:55.876Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-preferences.ts\""}
+{"ts":"2026-04-25T05:07:56.148Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:07:56.168Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-geolocation.ts\""}
+{"ts":"2026-04-25T05:08:01.707Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/utils/deep-links.ts\""}
+{"ts":"2026-04-25T05:08:01.713Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:02.418Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-ai-suggestion.ts\""}
+{"ts":"2026-04-25T05:08:02.419Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:02.621Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:02.622Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/hooks/use-calendar.ts\""}
+{"ts":"2026-04-25T05:08:06.585Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:06.586Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/filter-panel.tsx\""}
+{"ts":"2026-04-25T05:08:07.468Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:07.473Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/suggestion-display.tsx\""}
+{"ts":"2026-04-25T05:08:12.040Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/meal-history-section.tsx\""}
+{"ts":"2026-04-25T05:08:12.040Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:13.343Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:13.360Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/src/components/menu-list-view.tsx\""}
+{"ts":"2026-04-25T05:08:25.590Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:25.602Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"allowed-command","dur":1,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:33.441Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:55.501Z","hook":"subagent-init","event":"SubagentStart","tool":"","target":"project-manager","note":"context-injected","dur":112,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:57.639Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:57.649Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/plan.md\""}
+{"ts":"2026-04-25T05:08:57.881Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:57.906Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-01-modularize-and-data.md\""}
+{"ts":"2026-04-25T05:08:58.845Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":22,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:58.858Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-03-filters-and-preferences.md\""}
+{"ts":"2026-04-25T05:08:58.898Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-02-deep-link-integration.md\""}
+{"ts":"2026-04-25T05:08:58.920Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":16,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:08:59.011Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-04-integration-and-qa.md\""}
+{"ts":"2026-04-25T05:08:59.018Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:04.329Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/plan.md\""}
+{"ts":"2026-04-25T05:09:04.330Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:04.534Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:04.543Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:04.550Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Edit","target":"","note":"tracked-edit","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:06.254Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:06.261Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/plan.md\""}
+{"ts":"2026-04-25T05:09:06.570Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:06.572Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Edit","target":"","note":"tracked-edit","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:06.586Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:10.401Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:10.412Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-01-modularize-and-data.md\""}
+{"ts":"2026-04-25T05:09:10.564Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:10.566Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:10.576Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Edit","target":"","note":"tracked-edit","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:12.662Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:12.668Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-02-deep-link-integration.md\""}
+{"ts":"2026-04-25T05:09:12.843Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:12.847Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:12.860Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Edit","target":"","note":"tracked-edit","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:14.708Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:14.721Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-03-filters-and-preferences.md\""}
+{"ts":"2026-04-25T05:09:15.210Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:15.211Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:15.228Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Edit","target":"","note":"reminder-injected","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:15.405Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:15.410Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/plans/260424-2251-phase2-find-and-order/phase-04-integration-and-qa.md\""}
+{"ts":"2026-04-25T05:09:15.570Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:15.578Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Edit","target":"","note":"tracked-edit","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:15.582Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:23.694Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:09:23.696Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/docs\""}
+{"ts":"2026-04-25T05:10:09.009Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:12:52.805Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":124,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:12:53.234Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":548,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:12:59.159Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":21,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:12:59.168Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:12:59.574Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi\""}
+{"ts":"2026-04-25T05:12:59.589Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:12:59.635Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:13:04.289Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:13:04.299Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/datng/Desktop/hom_nay_an_gi/.gitignore\""}
+{"ts":"2026-04-25T05:13:25.065Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:13:25.065Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:13:41.317Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":24,"status":"skip","exit":0,"error":""}
+{"ts":"2026-04-25T05:13:44.865Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-04-25T05:13:44.890Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
