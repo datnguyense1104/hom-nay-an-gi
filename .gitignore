@@ -6,3 +6,11 @@ coverage/
 *.log
 .env*
 !.env.example
+.claude
+.opencode
+
+# AI tool outputs (auto-generated, not source)
+repomix-output.xml
+AGENTS.md
+release-manifest.json
+plans/

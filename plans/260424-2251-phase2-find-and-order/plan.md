@@ -1,5 +1,4 @@
----
-title: "Phase 2 — Find & Order Integration"
+---title: "Phase 2 — Find & Order Integration"
 description: "Add Shopee Food + Google Maps deep links, budget/dietary filters, expand dish DB, modularize App.tsx"
 status: complete
 priority: P1

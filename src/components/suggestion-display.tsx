@@ -4,6 +4,7 @@ import type { Dish } from "../types/dish-types";
 import type { CalendarStatus } from "../hooks/use-calendar";
 import type { GeolocationState } from "../hooks/use-geolocation";
 import { buildShopeeFoodUrl, buildGoogleMapsUrl, resolveCitySlug } from "../utils/deep-links";
+import { ShareButton } from "./share-button";
 
 // Re-export so consumers don't need to import from hooks directly
 export type { GeolocationState };
@@ -11,6 +12,7 @@ export type { GeolocationState };
 interface Props {
   selectedDish: Dish | null;
   aiSuggestion: string | null;
+  aiError: string | null;
   emptyPool: boolean;
   isLogged: boolean;
   calendarStatus: CalendarStatus;
@@ -19,6 +21,7 @@ interface Props {
   activeTab: string;
   onLogCalendar: () => void;
   onRequestLocation: () => void;
+  onGetShareUrl?: () => string;
 }
 
 function DeepLinkButtons({
@@ -90,9 +93,9 @@ function CalendarButton({ isLogged, calendarStatus, onLogCalendar }: Pick<Props,
 }
 
 export function SuggestionDisplay({
-  selectedDish, aiSuggestion, emptyPool,
+  selectedDish, aiSuggestion, aiError, emptyPool,
   isLogged, calendarStatus, location, preferredCity,
-  activeTab, onLogCalendar, onRequestLocation,
+  activeTab, onLogCalendar, onRequestLocation, onGetShareUrl,
 }: Props) {
   return (
     <div className="min-h-[200px] flex flex-col items-center justify-center border border-[#FFE7D6] rounded-[2rem] p-6 bg-gradient-to-b from-[#FEFCFA] to-white relative shadow-inner">
@@ -101,6 +104,12 @@ export function SuggestionDisplay({
           <motion.div key="empty-pool" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-center">
             <p className="text-sm text-[#A6998F] font-medium mb-1">Không tìm thấy món phù hợp</p>
             <p className="text-xs text-[#C4B8AD]">Thử điều chỉnh ngân sách hoặc sở thích ăn uống</p>
+          </motion.div>
+        ) : aiError ? (
+          <motion.div key="ai-error" initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-center">
+            <AlertCircle className="w-8 h-8 mx-auto mb-2 text-red-400" />
+            <p className="text-sm text-[#A6998F] font-medium mb-1">AI không phản hồi</p>
+            <p className="text-xs text-[#C4B8AD] max-w-[220px] mx-auto">{aiError}</p>
           </motion.div>
         ) : selectedDish ? (
           <motion.div key={selectedDish.id} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, scale: 0.95 }} className="text-center w-full">
@@ -116,8 +125,9 @@ export function SuggestionDisplay({
               preferredCity={preferredCity}
               onRequestLocation={onRequestLocation}
             />
-            <div className="mt-3 flex justify-center">
+            <div className="mt-3 flex flex-wrap justify-center gap-2">
               <CalendarButton isLogged={isLogged} calendarStatus={calendarStatus} onLogCalendar={onLogCalendar} />
+              {onGetShareUrl && <ShareButton onGetUrl={onGetShareUrl} dishName={selectedDish.name} />}
             </div>
           </motion.div>
         ) : aiSuggestion ? (
@@ -126,11 +136,11 @@ export function SuggestionDisplay({
               <Sparkles className="w-4 h-4 text-[#FF6321]" />
               <span className="text-[10px] font-black text-[#FF6321] uppercase tracking-tighter">AI Reco</span>
             </div>
-            <h2 className="text-2xl font-black text-[#FF6321] mb-2">{aiSuggestion.split(":")[0]}</h2>
-            <p className="text-sm text-[#5C4D3F] leading-7 px-4">{aiSuggestion.split(":")[1]?.trim()}</p>
+            <h2 className="text-2xl font-black text-[#FF6321] mb-2">{aiSuggestion.slice(0, aiSuggestion.indexOf(":")).trim()}</h2>
+            <p className="text-sm text-[#5C4D3F] leading-7 px-4">{aiSuggestion.slice(aiSuggestion.indexOf(":") + 1).trim()}</p>
             <DeepLinkButtons
-              keyword={aiSuggestion.split(":")[0].trim()}
-              dishName={aiSuggestion.split(":")[0].trim()}
+              keyword={aiSuggestion.slice(0, aiSuggestion.indexOf(":")).trim()}
+              dishName={aiSuggestion.slice(0, aiSuggestion.indexOf(":")).trim()}
               location={location}
               preferredCity={preferredCity}
               onRequestLocation={onRequestLocation}

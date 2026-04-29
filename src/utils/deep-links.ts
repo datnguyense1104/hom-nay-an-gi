@@ -4,8 +4,8 @@ import { detectCitySlug } from "../hooks/use-geolocation";
 export function buildShopeeFoodUrl(keyword: string, citySlug?: string | null): string {
   const encoded = encodeURIComponent(keyword);
   return citySlug
-    ? `https://shopeefood.vn/${citySlug}/search?q=${encoded}`
-    : `https://shopeefood.vn/search?q=${encoded}`;
+    ? `https://shopeefood.vn/${citySlug}/search?keyword=${encoded}`
+    : `https://shopeefood.vn/search?keyword=${encoded}`;
 }
 
 // Build Google Maps search URL, optionally centered on user coordinates

@@ -37,3 +37,11 @@ export const CITY_OPTIONS = [
   { label: "Cần Thơ", value: "can-tho" },
   { label: "Hải Phòng", value: "hai-phong" },
 ];
+
+export const MOOD_OPTIONS = [
+  { value: "vui", label: "Vui vẻ 😄" },
+  { value: "buon", label: "Buồn bã 😔" },
+  { value: "met", label: "Mệt mỏi 😴" },
+  { value: "ban", label: "Bận rộn ⚡" },
+  { value: "thu-gian", label: "Thư giãn 😌" },
+];
