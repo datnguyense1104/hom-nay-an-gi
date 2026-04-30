@@ -1,13 +1,16 @@
 import { AnimatePresence, motion } from "motion/react";
 import { ChefHat, Sparkles, Calendar, CheckCircle2, AlertCircle, RefreshCw, MapPin, ShoppingBag } from "lucide-react";
-import type { Dish } from "../types/dish-types";
+import type { Dish, BudgetRange, DietaryTag } from "../types/dish-types";
 import type { CalendarStatus } from "../hooks/use-calendar";
 import type { GeolocationState } from "../hooks/use-geolocation";
 import { buildShopeeFoodUrl, buildGoogleMapsUrl, resolveCitySlug } from "../utils/deep-links";
 import { ShareButton } from "./share-button";
+import { PersonalizationBadges } from "./personalization-badges";
 
 // Re-export so consumers don't need to import from hooks directly
 export type { GeolocationState };
+
+type BudgetOption = BudgetRange | "any";
 
 interface Props {
   selectedDish: Dish | null;
@@ -19,6 +22,9 @@ interface Props {
   location: GeolocationState;
   preferredCity: string;
   activeTab: string;
+  mood: string;
+  budget: BudgetOption;
+  dietaryPrefs: DietaryTag[];
   onLogCalendar: () => void;
   onRequestLocation: () => void;
   onGetShareUrl?: () => string;
@@ -95,7 +101,8 @@ function CalendarButton({ isLogged, calendarStatus, onLogCalendar }: Pick<Props,
 export function SuggestionDisplay({
   selectedDish, aiSuggestion, aiError, emptyPool,
   isLogged, calendarStatus, location, preferredCity,
-  activeTab, onLogCalendar, onRequestLocation, onGetShareUrl,
+  activeTab, mood, budget, dietaryPrefs,
+  onLogCalendar, onRequestLocation, onGetShareUrl,
 }: Props) {
   return (
     <div className="min-h-[200px] flex flex-col items-center justify-center border border-[#FFE7D6] rounded-[2rem] p-6 bg-gradient-to-b from-[#FEFCFA] to-white relative shadow-inner">
@@ -118,6 +125,7 @@ export function SuggestionDisplay({
             </span>
             <h2 className="text-3xl font-black text-[#1A1A1A] mb-3 leading-tight">{selectedDish.name}</h2>
             <p className="text-sm text-[#8C7A6B] leading-relaxed max-w-[280px] mx-auto line-clamp-3">{selectedDish.description}</p>
+            <PersonalizationBadges mood={mood} budget={budget} dietaryPrefs={dietaryPrefs} />
             <DeepLinkButtons
               keyword={selectedDish.shopeeFoodKeyword}
               dishName={selectedDish.name}
@@ -138,6 +146,7 @@ export function SuggestionDisplay({
             </div>
             <h2 className="text-2xl font-black text-[#FF6321] mb-2">{aiSuggestion.slice(0, aiSuggestion.indexOf(":")).trim()}</h2>
             <p className="text-sm text-[#5C4D3F] leading-7 px-4">{aiSuggestion.slice(aiSuggestion.indexOf(":") + 1).trim()}</p>
+            <PersonalizationBadges mood={mood} budget={budget} dietaryPrefs={dietaryPrefs} />
             <DeepLinkButtons
               keyword={aiSuggestion.slice(0, aiSuggestion.indexOf(":")).trim()}
               dishName={aiSuggestion.slice(0, aiSuggestion.indexOf(":")).trim()}

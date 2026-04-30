@@ -4,7 +4,7 @@
  */
 
 import { AnimatePresence, motion } from "motion/react";
-import { ArrowLeft, LayoutList, Utensils } from "lucide-react";
+import { ArrowLeft, LayoutList, Utensils, Settings } from "lucide-react";
 import { useState, useCallback, useMemo, useEffect } from "react";
 import type { Dish, MealTime } from "./types/dish-types";
 import { DISHES } from "./data/dishes-data";
@@ -56,13 +56,17 @@ export default function App() {
   const [emptyPool, setEmptyPool] = useState(false);
   const [showHistory, setShowHistory] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
-  const [mood, setMood] = useState(() => localStorage.getItem("default_mood") ?? "");
   const [weather, setWeather] = useState("");
-  const [region, setRegion] = useState("");
   const [toast, setToast] = useState<string | null>(null);
 
   const { addToHistory, getRecentlyEaten, recentDisplayHistory, mealHistory } = useMealHistory();
-  const { budget, setBudget, dietaryPrefs, toggleDietary, city, setCity } = usePreferences();
+  const { budget, setBudget, dietaryPrefs, toggleDietary, city, setCity, mood, setMood, defaultRegion } = usePreferences();
+
+  // null = no manual override; region falls back to city-derived defaultRegion from usePreferences
+  // Setting explicit value (including "") overrides the city default until cleared
+  const [regionOverride, setRegionOverride] = useState<string | null>(null);
+  const region = regionOverride ?? defaultRegion;
+  const setRegion = (v: string) => setRegionOverride(v || null);
   const { location, requestLocation } = useGeolocation();
   const { isLogged, calendarStatus, logToCalendar, resetCalendar } = useCalendar();
   const { isAiLoading, aiSuggestion, aiError, getSmartSuggestion, clearSuggestion } = useAiSuggestion();
@@ -121,7 +125,6 @@ export default function App() {
     logToCalendar(name, activeTab);
   }, [selectedDish, aiSuggestion, activeTab, logToCalendar]);
 
-  const setDefaultMood = (m: string) => { setMood(m); localStorage.setItem("default_mood", m); };
   const switchTab = (tab: MealTime) => { setActiveTab(tab); setSelectedDish(null); clearSuggestion(); setEmptyPool(false); };
   const getShareUrl = () => buildShareUrl({ dish: selectedDish!, budget, dietary: dietaryPrefs, region, meal: activeTab });
 
@@ -134,7 +137,7 @@ export default function App() {
           budget={budget} setBudget={setBudget}
           dietaryPrefs={dietaryPrefs} toggleDietary={toggleDietary}
           city={city} setCity={setCity}
-          defaultMood={mood} setDefaultMood={setDefaultMood}
+          defaultMood={mood} setDefaultMood={setMood}
         />
       )}
 
@@ -153,14 +156,25 @@ export default function App() {
               <Utensils className="w-5 h-5 text-white" />
             </div>
           )}
-          <button onClick={() => setView(v => v === "random" ? "menu" : "random")}
-            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${
-              view === "menu" ? "bg-[#FF6321] text-white" : "bg-[#F5F5F0] text-[#A6998F] hover:text-[#FF6321]"
-            }`}
-          >
-            <LayoutList className="w-3.5 h-3.5" />
-            Thực đơn
-          </button>
+          <div className="flex items-center gap-2">
+            {view === "random" && (
+              <button
+                onClick={onboarding.open}
+                aria-label="Chỉnh lại tuỳ chọn"
+                className="p-2 rounded-xl bg-[#F5F5F0] text-[#A6998F] hover:text-[#FF6321] transition-colors"
+              >
+                <Settings className="w-3.5 h-3.5" />
+              </button>
+            )}
+            <button onClick={() => setView(v => v === "random" ? "menu" : "random")}
+              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${
+                view === "menu" ? "bg-[#FF6321] text-white" : "bg-[#F5F5F0] text-[#A6998F] hover:text-[#FF6321]"
+              }`}
+            >
+              <LayoutList className="w-3.5 h-3.5" />
+              Thực đơn
+            </button>
+          </div>
         </div>
 
         <AnimatePresence mode="wait">
@@ -191,6 +205,7 @@ export default function App() {
                   selectedDish={selectedDish} aiSuggestion={aiSuggestion} aiError={aiError}
                   emptyPool={emptyPool} isLogged={isLogged} calendarStatus={calendarStatus}
                   location={location} preferredCity={city} activeTab={activeTab}
+                  mood={mood} budget={budget} dietaryPrefs={dietaryPrefs}
                   onLogCalendar={handleLogCalendar} onRequestLocation={requestLocation}
                   onGetShareUrl={selectedDish ? getShareUrl : undefined}
                 />

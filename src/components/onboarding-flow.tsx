@@ -83,12 +83,20 @@ export function OnboardingFlow({
         </Chip>
       ))}
     </div>,
-    <div key="mood" className="flex flex-wrap gap-2 justify-center">
-      {MOOD_OPTIONS.map(({ value, label }) => (
-        <Chip key={value} selected={defaultMood === value} onClick={() => setDefaultMood(defaultMood === value ? "" : value)}>
-          {label}
-        </Chip>
-      ))}
+    <div key="mood" className="w-full">
+      <div className="flex flex-wrap gap-2 justify-center">
+        {MOOD_OPTIONS.map(({ value, label }) => (
+          <Chip key={value} selected={defaultMood === value} onClick={() => setDefaultMood(defaultMood === value ? "" : value)}>
+            {label}
+          </Chip>
+        ))}
+      </div>
+      <div className="mt-4 p-3 bg-[#FFF9F5] rounded-xl text-left space-y-1">
+        <p className="text-[9px] font-black text-[#A6998F] uppercase tracking-widest mb-2">Đã chọn</p>
+        <p className="text-xs text-[#5C4D3F]">• Ngân sách: <span className="font-bold">{BUDGET_LABELS[budget]}</span></p>
+        <p className="text-xs text-[#5C4D3F]">• Ăn kiêng: <span className="font-bold">{dietaryPrefs.length > 0 ? dietaryPrefs.map(t => DIETARY_LABELS[t]).join(", ") : "Không"}</span></p>
+        <p className="text-xs text-[#5C4D3F]">• Thành phố: <span className="font-bold">{CITY_OPTIONS.find(c => c.value === city)?.label ?? "—"}</span></p>
+      </div>
     </div>,
   ];
 
@@ -117,7 +125,7 @@ export function OnboardingFlow({
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -20 }}
             transition={{ duration: 0.15 }}
-            className="mb-8 min-h-[80px] flex items-center justify-center"
+            className={`mb-8 flex items-center justify-center ${step === 3 ? "min-h-[160px]" : "min-h-[80px]"}`}
           >
             {stepContent[step]}
           </motion.div>

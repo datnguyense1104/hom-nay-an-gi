@@ -25,5 +25,8 @@ export function useOnboardingState() {
     setIsOpen(false);
   };
 
-  return { isOpen, step, next, back, complete, skip, forceClose };
+  // Allows re-opening preferences wizard from main UI
+  const open = () => { setStep(0); setIsOpen(true); };
+
+  return { isOpen, step, next, back, complete, skip, forceClose, open };
 }
