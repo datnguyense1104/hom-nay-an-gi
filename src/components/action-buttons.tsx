@@ -19,7 +19,7 @@ export function ActionButtons({ onRandomize, onAiSuggest, onLongOverdue, isSpinn
         className="w-full flex items-center justify-center gap-2.5 bg-[#FF6321] hover:bg-[#E5551A] disabled:opacity-50 text-white font-black py-4 rounded-2xl transition-all active:scale-[0.98] shadow-lg shadow-[#FF632133] text-base"
       >
         <RefreshCw className={`w-5 h-5 flex-shrink-0 ${isSpinning ? "animate-spin" : ""}`} />
-        Ngẫu nhiên
+        Ngẫu nhiên trong thực đơn
       </button>
 
       {/* Secondary row */}

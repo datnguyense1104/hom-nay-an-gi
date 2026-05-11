@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { AnimatePresence, motion } from "motion/react";
-import { SlidersHorizontal, ChevronDown } from "lucide-react";
+import { SlidersHorizontal, X } from "lucide-react";
 import type { DietaryTag } from "../types/dish-types";
 import { DIETARY_LABELS, CITY_OPTIONS } from "../types/dish-types";
 
@@ -47,73 +47,99 @@ export function FilterPanel({
   const activeCount = [mood, weather, region, city].filter(Boolean).length + dietaryPrefs.length;
 
   return (
-    <div className={`bg-[#FFF9F5] border rounded-2xl p-4 transition-colors ${activeCount > 0 ? "border-[#FF632144]" : "border-[#FFE7D6]"}`}>
+    <>
       <button
         onClick={onToggle}
-        className="w-full flex items-center justify-between text-xs font-black uppercase tracking-widest text-[#8C7A6B] hover:text-[#FF6321] transition-colors"
+        className={`w-full flex items-center justify-between px-4 py-3 rounded-2xl border text-xs font-black uppercase tracking-widest transition-all ${
+          activeCount > 0
+            ? "border-[#FF632144] bg-[#FFF9F5] text-[#FF6321]"
+            : "border-[#FFE7D6] bg-[#FFF9F5] text-[#8C7A6B] hover:text-[#FF6321]"
+        }`}
       >
         <div className="flex items-center gap-2">
           <SlidersHorizontal className="w-3.5 h-3.5" />
-          Cá nhân hóa gợi ý
-          {activeCount > 0 && !show && (
-            <span className="inline-flex items-center justify-center w-4 h-4 bg-[#FF6321] text-white text-[9px] font-black rounded-full leading-none">
-              {activeCount}
-            </span>
-          )}
+          Cá nhân hóa gợi ý cho AI
         </div>
-        <motion.div animate={{ rotate: show ? 180 : 0 }} transition={{ duration: 0.2 }}>
-          <ChevronDown className="w-4 h-4" />
-        </motion.div>
+        {activeCount > 0 && (
+          <span className="inline-flex items-center justify-center w-5 h-5 bg-[#FF6321] text-white text-[9px] font-black rounded-full leading-none">
+            {activeCount}
+          </span>
+        )}
       </button>
 
       <AnimatePresence>
         {show && (
           <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            className="overflow-hidden space-y-4 pt-4"
+            key="filter-backdrop"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4 bg-black/40"
+            onClick={onToggle}
           >
-            <FilterSection label="Tâm trạng">
-              {MOODS.map(m => (
-                <button key={m} onClick={() => onMoodChange(m === mood ? "" : m)} className={pillCls(mood === m)}>{m}</button>
-              ))}
-            </FilterSection>
+            <motion.div
+              initial={{ opacity: 0, y: 40 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 40 }}
+              transition={{ type: "spring", damping: 28, stiffness: 320 }}
+              className="w-full max-w-sm bg-white rounded-[2rem] p-6 shadow-2xl space-y-4 max-h-[80vh] overflow-y-auto"
+              onClick={e => e.stopPropagation()}
+            >
+              <div className="flex items-center justify-between">
+                <span className="text-sm font-black text-[#1A1A1A] uppercase tracking-widest">Cá nhân hóa</span>
+                <button onClick={onToggle} className="p-1 text-[#A6998F] hover:text-[#FF6321] transition-colors">
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
 
-            <FilterSection label="Thời tiết">
-              {WEATHERS.map(w => (
-                <button key={w} onClick={() => onWeatherChange(w === weather ? "" : w)} className={pillCls(weather === w)}>{w}</button>
-              ))}
-            </FilterSection>
-
-            <FilterSection label="Vùng miền">
-              {REGIONS.map(r => (
-                <button key={r} onClick={() => onRegionChange(r === region ? "" : r)} className={pillCls(region === r)}>{r}</button>
-              ))}
-            </FilterSection>
-
-            <FilterSection label="Sở thích ăn uống">
-              {DIETARY_TAGS.map(tag => (
-                <button key={tag} onClick={() => onDietaryToggle(tag)} className={pillCls(dietaryPrefs.includes(tag))}>{DIETARY_LABELS[tag]}</button>
-              ))}
-            </FilterSection>
-
-            <div className="space-y-2">
-              <label className="text-[11px] font-bold text-[#A6998F] uppercase tracking-wide">Khu vực giao hàng</label>
-              <select
-                value={city}
-                onChange={e => onCityChange(e.target.value)}
-                className="w-full bg-white border border-[#FFE7D6] rounded-xl px-3 py-2.5 text-xs text-[#5C4D3F] focus:ring-2 focus:ring-[#FF632122] focus:outline-none"
-              >
-                <option value="">Tự động nhận diện</option>
-                {CITY_OPTIONS.map(c => (
-                  <option key={c.value} value={c.value}>{c.label}</option>
+              <FilterSection label="Tâm trạng">
+                {MOODS.map(m => (
+                  <button key={m} onClick={() => onMoodChange(m === mood ? "" : m)} className={pillCls(mood === m)}>{m}</button>
                 ))}
-              </select>
-            </div>
+              </FilterSection>
+
+              <FilterSection label="Thời tiết">
+                {WEATHERS.map(w => (
+                  <button key={w} onClick={() => onWeatherChange(w === weather ? "" : w)} className={pillCls(weather === w)}>{w}</button>
+                ))}
+              </FilterSection>
+
+              <FilterSection label="Vùng miền">
+                {REGIONS.map(r => (
+                  <button key={r} onClick={() => onRegionChange(r === region ? "" : r)} className={pillCls(region === r)}>{r}</button>
+                ))}
+              </FilterSection>
+
+              <FilterSection label="Sở thích ăn uống">
+                {DIETARY_TAGS.map(tag => (
+                  <button key={tag} onClick={() => onDietaryToggle(tag)} className={pillCls(dietaryPrefs.includes(tag))}>{DIETARY_LABELS[tag]}</button>
+                ))}
+              </FilterSection>
+
+              <div className="space-y-2">
+                <label className="text-[11px] font-bold text-[#A6998F] uppercase tracking-wide">Khu vực giao hàng</label>
+                <select
+                  value={city}
+                  onChange={e => onCityChange(e.target.value)}
+                  className="w-full bg-white border border-[#FFE7D6] rounded-xl px-3 py-2.5 text-xs text-[#5C4D3F] focus:ring-2 focus:ring-[#FF632122] focus:outline-none"
+                >
+                  <option value="">Tự động nhận diện</option>
+                  {CITY_OPTIONS.map(c => (
+                    <option key={c.value} value={c.value}>{c.label}</option>
+                  ))}
+                </select>
+              </div>
+
+              <button
+                onClick={onToggle}
+                className="w-full py-3 rounded-2xl bg-[#FF6321] hover:bg-[#E5551A] text-white text-xs font-black uppercase tracking-widest transition-all"
+              >
+                Xong
+              </button>
+            </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
-    </div>
+    </>
   );
 }
