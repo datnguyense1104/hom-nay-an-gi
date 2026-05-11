@@ -1,7 +1,6 @@
 import { AnimatePresence, motion } from "motion/react";
-import { ChefHat, Sparkles, Calendar, CheckCircle2, AlertCircle, RefreshCw, MapPin, ShoppingBag } from "lucide-react";
+import { ChefHat, Sparkles, AlertCircle, RefreshCw, MapPin, ShoppingBag } from "lucide-react";
 import type { Dish } from "../types/dish-types";
-import type { CalendarStatus } from "../hooks/use-calendar";
 import type { GeolocationState } from "../hooks/use-geolocation";
 import { buildShopeeFoodUrl, buildGoogleMapsUrl, resolveCitySlug } from "../utils/deep-links";
 import { ShareButton } from "./share-button";
@@ -14,12 +13,9 @@ interface Props {
   aiSuggestion: string | null;
   aiError: string | null;
   emptyPool: boolean;
-  isLogged: boolean;
-  calendarStatus: CalendarStatus;
   location: GeolocationState;
   preferredCity: string;
   activeTab: string;
-  onLogCalendar: () => void;
   onRequestLocation: () => void;
   onGetShareUrl?: () => string;
 }
@@ -65,37 +61,10 @@ function DeepLinkButtons({
   );
 }
 
-function CalendarButton({ isLogged, calendarStatus, onLogCalendar }: Pick<Props, "isLogged" | "calendarStatus" | "onLogCalendar">) {
-  if (isLogged) {
-    return (
-      <div className="flex items-center gap-2 px-6 py-2 bg-[#34A85311] text-[#34A853] rounded-full text-xs font-black uppercase tracking-widest">
-        <CheckCircle2 className="w-3 h-3" />
-        Đã lưu thành công
-      </div>
-    );
-  }
-  return (
-    <button
-      onClick={onLogCalendar}
-      disabled={calendarStatus === "loading"}
-      className="group flex items-center gap-2 px-6 py-2 bg-[#F5F5F0] hover:bg-[#FF632111] text-[#A6998F] hover:text-[#FF6321] rounded-full text-xs font-black uppercase tracking-widest transition-all"
-    >
-      {calendarStatus === "loading" ? (
-        <RefreshCw className="w-3 h-3 animate-spin" />
-      ) : calendarStatus === "error" ? (
-        <AlertCircle className="w-3 h-3 text-red-400" />
-      ) : (
-        <Calendar className="w-3 h-3 transition-transform group-hover:scale-110" />
-      )}
-      {calendarStatus === "loading" ? "Đang đồng bộ..." : calendarStatus === "error" ? "Lỗi (Thử lại)" : "Lưu vào Calendar"}
-    </button>
-  );
-}
-
 export function SuggestionDisplay({
   selectedDish, aiSuggestion, aiError, emptyPool,
-  isLogged, calendarStatus, location, preferredCity,
-  activeTab, onLogCalendar, onRequestLocation, onGetShareUrl,
+  location, preferredCity,
+  activeTab, onRequestLocation, onGetShareUrl,
 }: Props) {
   return (
     <div className="min-h-[200px] flex flex-col items-center justify-center border border-[#FFE7D6] rounded-[2rem] p-6 bg-gradient-to-b from-[#FEFCFA] to-white relative shadow-inner">
@@ -125,10 +94,11 @@ export function SuggestionDisplay({
               preferredCity={preferredCity}
               onRequestLocation={onRequestLocation}
             />
-            <div className="mt-3 flex flex-wrap justify-center gap-2">
-              <CalendarButton isLogged={isLogged} calendarStatus={calendarStatus} onLogCalendar={onLogCalendar} />
-              {onGetShareUrl && <ShareButton onGetUrl={onGetShareUrl} dishName={selectedDish.name} />}
-            </div>
+            {onGetShareUrl && (
+              <div className="mt-3 flex justify-center">
+                <ShareButton onGetUrl={onGetShareUrl} dishName={selectedDish.name} />
+              </div>
+            )}
           </motion.div>
         ) : aiSuggestion ? (
           <motion.div key="ai-suggestion" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="text-center w-full">
@@ -145,9 +115,6 @@ export function SuggestionDisplay({
               preferredCity={preferredCity}
               onRequestLocation={onRequestLocation}
             />
-            <div className="mt-3 flex justify-center">
-              <CalendarButton isLogged={isLogged} calendarStatus={calendarStatus} onLogCalendar={onLogCalendar} />
-            </div>
           </motion.div>
         ) : (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-center">

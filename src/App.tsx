@@ -11,7 +11,6 @@ import { DISHES } from "./data/dishes-data";
 import { useMealHistory } from "./hooks/use-meal-history";
 import { usePreferences } from "./hooks/use-preferences";
 import { useGeolocation } from "./hooks/use-geolocation";
-import { useCalendar } from "./hooks/use-calendar";
 import { useAiSuggestion } from "./hooks/use-ai-suggestion";
 import { useOnboardingState } from "./hooks/use-onboarding-state";
 import { useShareState } from "./hooks/use-share-state";
@@ -64,7 +63,6 @@ export default function App() {
   const { addToHistory, getRecentlyEaten, recentDisplayHistory, mealHistory } = useMealHistory();
   const { budget, setBudget, dietaryPrefs, toggleDietary, city, setCity } = usePreferences();
   const { location, requestLocation } = useGeolocation();
-  const { isLogged, calendarStatus, logToCalendar, resetCalendar } = useCalendar();
   const { isAiLoading, aiSuggestion, aiError, getSmartSuggestion, clearSuggestion } = useAiSuggestion();
   const onboarding = useOnboardingState();
   const shareState = useShareState();
@@ -94,32 +92,34 @@ export default function App() {
 
   const randomize = useCallback(() => {
     if (isSpinning || isAiLoading) return;
-    resetCalendar(); clearSuggestion(); setSelectedDish(null); setEmptyPool(false);
+    clearSuggestion(); setSelectedDish(null); setEmptyPool(false);
     if (basePool.length === 0) { setEmptyPool(true); return; }
     const recent = getRecentlyEaten();
     const pool = basePool.filter(d => !recent.has(d.name));
     runSpinningPick(pool.length > 0 ? pool : basePool, setIsSpinning, setSelectedDish, d => addToHistory(d.name));
-  }, [isSpinning, isAiLoading, basePool, getRecentlyEaten, resetCalendar, clearSuggestion, addToHistory]);
+  }, [isSpinning, isAiLoading, basePool, getRecentlyEaten, clearSuggestion, addToHistory]);
 
   const pickLongOverdue = useCallback(() => {
     if (isSpinning || isAiLoading) return;
-    resetCalendar(); clearSuggestion(); setSelectedDish(null); setEmptyPool(false);
+    clearSuggestion(); setSelectedDish(null); setEmptyPool(false);
     const pool = overduePool.length > 0 ? overduePool : basePool;
     if (pool.length === 0) { setEmptyPool(true); return; }
     if (overduePool.length === 0) showToast("Chưa có món nào lâu chưa ăn 😊");
     runSpinningPick(pool, setIsSpinning, setSelectedDish, d => addToHistory(d.name));
-  }, [isSpinning, isAiLoading, overduePool, basePool, resetCalendar, clearSuggestion, addToHistory]);
+  }, [isSpinning, isAiLoading, overduePool, basePool, clearSuggestion, addToHistory]);
 
   const handleAiSuggest = useCallback(() => {
     if (isSpinning || isAiLoading) return;
-    resetCalendar(); setSelectedDish(null); setEmptyPool(false);
+    setSelectedDish(null); setEmptyPool(false);
     getSmartSuggestion({ mealTime: activeTab, mood, weather, region, budget, dietaryPrefs });
-  }, [isSpinning, isAiLoading, activeTab, mood, weather, region, budget, dietaryPrefs, resetCalendar, getSmartSuggestion]);
+  }, [isSpinning, isAiLoading, activeTab, mood, weather, region, budget, dietaryPrefs, getSmartSuggestion]);
 
-  const handleLogCalendar = useCallback(() => {
-    const name = selectedDish?.name ?? aiSuggestion?.split(":")[0].trim() ?? "Bữa ăn";
-    logToCalendar(name, activeTab);
-  }, [selectedDish, aiSuggestion, activeTab, logToCalendar]);
+  // Add AI-suggested dish name to history when suggestion arrives
+  useEffect(() => {
+    if (!aiSuggestion) return;
+    const name = aiSuggestion.split(":")[0].trim();
+    if (name) addToHistory(name);
+  }, [aiSuggestion]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const setDefaultMood = (m: string) => { setMood(m); localStorage.setItem("default_mood", m); };
   const switchTab = (tab: MealTime) => { setActiveTab(tab); setSelectedDish(null); clearSuggestion(); setEmptyPool(false); };
@@ -131,7 +131,6 @@ export default function App() {
         <OnboardingFlow
           step={onboarding.step} onNext={onboarding.next} onBack={onboarding.back}
           onComplete={onboarding.complete} onSkip={onboarding.skip}
-          budget={budget} setBudget={setBudget}
           dietaryPrefs={dietaryPrefs} toggleDietary={toggleDietary}
           city={city} setCity={setCity}
           defaultMood={mood} setDefaultMood={setDefaultMood}
@@ -182,16 +181,15 @@ export default function App() {
               <main className="space-y-6">
                 <FilterPanel
                   show={showFilters} onToggle={() => setShowFilters(v => !v)}
-                  mood={mood} weather={weather} region={region} budget={budget}
+                  mood={mood} weather={weather} region={region}
                   dietaryPrefs={dietaryPrefs} city={city}
                   onMoodChange={setMood} onWeatherChange={setWeather} onRegionChange={setRegion}
-                  onBudgetChange={setBudget} onDietaryToggle={toggleDietary} onCityChange={setCity}
+                  onDietaryToggle={toggleDietary} onCityChange={setCity}
                 />
                 <SuggestionDisplay
                   selectedDish={selectedDish} aiSuggestion={aiSuggestion} aiError={aiError}
-                  emptyPool={emptyPool} isLogged={isLogged} calendarStatus={calendarStatus}
-                  location={location} preferredCity={city} activeTab={activeTab}
-                  onLogCalendar={handleLogCalendar} onRequestLocation={requestLocation}
+                  emptyPool={emptyPool} location={location} preferredCity={city} activeTab={activeTab}
+                  onRequestLocation={requestLocation}
                   onGetShareUrl={selectedDish ? getShareUrl : undefined}
                 />
                 <ActionButtons

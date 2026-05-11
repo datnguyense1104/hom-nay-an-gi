@@ -1,9 +1,7 @@
 import { motion, AnimatePresence } from "motion/react";
 import { X } from "lucide-react";
-import type { BudgetRange, DietaryTag } from "../types/dish-types";
-import { BUDGET_LABELS, DIETARY_LABELS, CITY_OPTIONS, MOOD_OPTIONS } from "../types/dish-types";
-
-type BudgetOption = BudgetRange | "any";
+import type { DietaryTag } from "../types/dish-types";
+import { DIETARY_LABELS, CITY_OPTIONS, MOOD_OPTIONS } from "../types/dish-types";
 
 interface OnboardingFlowProps {
   step: number;
@@ -11,8 +9,6 @@ interface OnboardingFlowProps {
   onBack: () => void;
   onComplete: () => void;
   onSkip: () => void;
-  budget: BudgetOption;
-  setBudget: (b: BudgetOption) => void;
   dietaryPrefs: DietaryTag[];
   toggleDietary: (t: DietaryTag) => void;
   city: string;
@@ -21,8 +17,8 @@ interface OnboardingFlowProps {
   setDefaultMood: (m: string) => void;
 }
 
-const STEP_TITLES = ["Ngân sách thường ngày?", "Bạn ăn kiêng không?", "Bạn ở thành phố nào?", "Tâm trạng hôm nay?"];
-const STEP_HINTS = ["Giúp lọc món phù hợp", "Chọn nhiều nếu cần", "Để tìm quán gần bạn", "Tuỳ chọn, có thể bỏ qua"];
+const STEP_TITLES = ["Bạn ăn kiêng không?", "Bạn ở thành phố nào?", "Tâm trạng hôm nay?"];
+const STEP_HINTS = ["Chọn nhiều nếu cần", "Để tìm quán gần bạn", "Tuỳ chọn, có thể bỏ qua"];
 
 function Chip({ selected, onClick, children }: { selected: boolean; onClick: () => void; children: React.ReactNode }) {
   return (
@@ -56,17 +52,12 @@ function ProgressBar({ step, total }: { step: number; total: number }) {
 
 export function OnboardingFlow({
   step, onNext, onBack, onComplete, onSkip,
-  budget, setBudget, dietaryPrefs, toggleDietary,
+  dietaryPrefs, toggleDietary,
   city, setCity, defaultMood, setDefaultMood,
 }: OnboardingFlowProps) {
-  const isLast = step === 3;
+  const isLast = step === 2;
 
   const stepContent = [
-    <div key="budget" className="flex flex-wrap gap-2 justify-center">
-      {(["any", "under-50k", "50k-100k", "over-100k"] as BudgetOption[]).map(b => (
-        <Chip key={b} selected={budget === b} onClick={() => setBudget(b)}>{BUDGET_LABELS[b]}</Chip>
-      ))}
-    </div>,
     <div key="dietary" className="space-y-3">
       <div className="flex flex-wrap gap-2 justify-center">
         {(Object.keys(DIETARY_LABELS) as DietaryTag[]).map(tag => (
@@ -103,7 +94,7 @@ export function OnboardingFlow({
           <X className="w-4 h-4" />
         </button>
 
-        <ProgressBar step={step} total={4} />
+        <ProgressBar step={step} total={3} />
 
         <div className="text-center mb-6">
           <h2 className="text-lg font-black text-[#1A1A1A]">{STEP_TITLES[step]}</h2>

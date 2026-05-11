@@ -1,10 +1,8 @@
 import type { ReactNode } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { SlidersHorizontal, ChevronDown } from "lucide-react";
-import type { BudgetRange, DietaryTag } from "../types/dish-types";
-import { BUDGET_LABELS, DIETARY_LABELS, CITY_OPTIONS } from "../types/dish-types";
-
-type BudgetOption = BudgetRange | "any";
+import type { DietaryTag } from "../types/dish-types";
+import { DIETARY_LABELS, CITY_OPTIONS } from "../types/dish-types";
 
 interface Props {
   show: boolean;
@@ -12,13 +10,11 @@ interface Props {
   mood: string;
   weather: string;
   region: string;
-  budget: BudgetOption;
   dietaryPrefs: DietaryTag[];
   city: string;
   onMoodChange: (v: string) => void;
   onWeatherChange: (v: string) => void;
   onRegionChange: (v: string) => void;
-  onBudgetChange: (v: BudgetOption) => void;
   onDietaryToggle: (tag: DietaryTag) => void;
   onCityChange: (v: string) => void;
 }
@@ -26,7 +22,6 @@ interface Props {
 const MOODS = ["Vui vẻ", "Mệt mỏi", "Căng thẳng", "Đang yêu", "Bình thường"];
 const WEATHERS = ["Nóng nực", "Lạnh", "Mưa", "Mát mẻ"];
 const REGIONS = ["Miền Bắc", "Miền Trung", "Miền Nam"];
-const BUDGETS: BudgetOption[] = ["any", "under-50k", "50k-100k", "over-100k"];
 const DIETARY_TAGS: DietaryTag[] = ["chay", "no-red-meat", "no-seafood", "no-spicy", "halal"];
 
 const pillCls = (active: boolean) =>
@@ -45,13 +40,11 @@ function FilterSection({ label, children }: { label: string; children: ReactNode
 
 export function FilterPanel({
   show, onToggle,
-  mood, weather, region, budget, dietaryPrefs, city,
+  mood, weather, region, dietaryPrefs, city,
   onMoodChange, onWeatherChange, onRegionChange,
-  onBudgetChange, onDietaryToggle, onCityChange,
+  onDietaryToggle, onCityChange,
 }: Props) {
-  const activeCount = [mood, weather, region, city].filter(Boolean).length
-    + (budget !== "any" ? 1 : 0)
-    + dietaryPrefs.length;
+  const activeCount = [mood, weather, region, city].filter(Boolean).length + dietaryPrefs.length;
 
   return (
     <div className={`bg-[#FFF9F5] border rounded-2xl p-4 transition-colors ${activeCount > 0 ? "border-[#FF632144]" : "border-[#FFE7D6]"}`}>
@@ -96,12 +89,6 @@ export function FilterPanel({
             <FilterSection label="Vùng miền">
               {REGIONS.map(r => (
                 <button key={r} onClick={() => onRegionChange(r === region ? "" : r)} className={pillCls(region === r)}>{r}</button>
-              ))}
-            </FilterSection>
-
-            <FilterSection label="Ngân sách">
-              {BUDGETS.map(b => (
-                <button key={b} onClick={() => onBudgetChange(b)} className={pillCls(budget === b)}>{BUDGET_LABELS[b]}</button>
               ))}
             </FilterSection>
 
