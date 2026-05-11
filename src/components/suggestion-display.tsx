@@ -48,7 +48,7 @@ function DeepLinkButtons({
       <button
         onClick={handleShopee}
         disabled={location.loading}
-        className="flex items-center gap-1.5 px-4 py-2 bg-[#EE4D2D] hover:bg-[#D73B1F] disabled:opacity-50 text-white rounded-full text-[10px] font-black uppercase tracking-widest transition-all"
+        className="flex items-center gap-1.5 px-4 py-2 bg-[#EE4D2D] hover:bg-[#D73B1F] disabled:opacity-50 text-white rounded-full text-xs font-black uppercase tracking-widest transition-all"
       >
         {location.loading ? <RefreshCw className="w-3 h-3 animate-spin" /> : <ShoppingBag className="w-3 h-3" />}
         Shopee Food
@@ -56,7 +56,7 @@ function DeepLinkButtons({
       <button
         onClick={handleMaps}
         disabled={location.loading}
-        className="flex items-center gap-1.5 px-4 py-2 bg-[#4285F4] hover:bg-[#3270D8] disabled:opacity-50 text-white rounded-full text-[10px] font-black uppercase tracking-widest transition-all"
+        className="flex items-center gap-1.5 px-4 py-2 bg-[#4285F4] hover:bg-[#3270D8] disabled:opacity-50 text-white rounded-full text-xs font-black uppercase tracking-widest transition-all"
       >
         {location.loading ? <RefreshCw className="w-3 h-3 animate-spin" /> : <MapPin className="w-3 h-3" />}
         Gần đây
@@ -68,7 +68,7 @@ function DeepLinkButtons({
 function CalendarButton({ isLogged, calendarStatus, onLogCalendar }: Pick<Props, "isLogged" | "calendarStatus" | "onLogCalendar">) {
   if (isLogged) {
     return (
-      <div className="flex items-center gap-2 px-6 py-2 bg-[#34A85311] text-[#34A853] rounded-full text-[10px] font-black uppercase tracking-widest">
+      <div className="flex items-center gap-2 px-6 py-2 bg-[#34A85311] text-[#34A853] rounded-full text-xs font-black uppercase tracking-widest">
         <CheckCircle2 className="w-3 h-3" />
         Đã lưu thành công
       </div>
@@ -78,7 +78,7 @@ function CalendarButton({ isLogged, calendarStatus, onLogCalendar }: Pick<Props,
     <button
       onClick={onLogCalendar}
       disabled={calendarStatus === "loading"}
-      className="group flex items-center gap-2 px-6 py-2 bg-[#F5F5F0] hover:bg-[#FF632111] text-[#A6998F] hover:text-[#FF6321] rounded-full text-[10px] font-black uppercase tracking-widest transition-all"
+      className="group flex items-center gap-2 px-6 py-2 bg-[#F5F5F0] hover:bg-[#FF632111] text-[#A6998F] hover:text-[#FF6321] rounded-full text-xs font-black uppercase tracking-widest transition-all"
     >
       {calendarStatus === "loading" ? (
         <RefreshCw className="w-3 h-3 animate-spin" />
@@ -113,7 +113,7 @@ export function SuggestionDisplay({
           </motion.div>
         ) : selectedDish ? (
           <motion.div key={selectedDish.id} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, scale: 0.95 }} className="text-center w-full">
-            <span className="inline-block px-3 py-1 bg-[#FFF0E6] text-[#FF6321] text-[10px] font-extrabold uppercase tracking-widest rounded-lg mb-3">
+            <span className="inline-block px-3 py-1 bg-[#FFF0E6] text-[#FF6321] text-xs font-extrabold uppercase tracking-widest rounded-lg mb-3">
               {selectedDish.category}
             </span>
             <h2 className="text-3xl font-black text-[#1A1A1A] mb-3 leading-tight">{selectedDish.name}</h2>
@@ -134,7 +134,7 @@ export function SuggestionDisplay({
           <motion.div key="ai-suggestion" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="text-center w-full">
             <div className="flex items-center justify-center gap-2 mb-3">
               <Sparkles className="w-4 h-4 text-[#FF6321]" />
-              <span className="text-[10px] font-black text-[#FF6321] uppercase tracking-tighter">AI Reco</span>
+              <span className="text-xs font-black text-[#FF6321] uppercase tracking-tight">AI Gợi ý</span>
             </div>
             <h2 className="text-2xl font-black text-[#FF6321] mb-2">{aiSuggestion.slice(0, aiSuggestion.indexOf(":")).trim()}</h2>
             <p className="text-sm text-[#5C4D3F] leading-7 px-4">{aiSuggestion.slice(aiSuggestion.indexOf(":") + 1).trim()}</p>
@@ -150,9 +150,12 @@ export function SuggestionDisplay({
             </div>
           </motion.div>
         ) : (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 0.3 }} className="text-center">
-            <ChefHat className="w-16 h-16 mx-auto mb-4" />
-            <p className="text-sm font-medium">Bấm để tìm món ngon</p>
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-center">
+            <div className="w-16 h-16 bg-[#FFF0E6] rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <ChefHat className="w-8 h-8 text-[#FF6321]" />
+            </div>
+            <p className="text-sm font-bold text-[#8C7A6B]">Bấm để tìm món ngon</p>
+            <p className="text-xs text-[#C4B8AD] mt-1">Chọn bữa ăn và nhấn ngẫu nhiên</p>
           </motion.div>
         )}
       </AnimatePresence>

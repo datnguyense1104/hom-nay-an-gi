@@ -19,7 +19,7 @@ export function MenuListView({ dishes }: Props) {
   );
 
   return (
-    <div className="p-8 pt-0 flex flex-col h-[500px]">
+    <div className="p-8 pt-0 flex flex-col" style={{ height: "min(500px, 60vh)" }}>
       <h1 className="text-2xl font-black text-[#1A1A1A] mb-4 text-center">Thực đơn quốc dân</h1>
 
       <div className="relative mb-6">
@@ -45,11 +45,11 @@ export function MenuListView({ dishes }: Props) {
               <div className="flex items-start justify-between mb-2">
                 <div>
                   <h3 className="font-bold text-[#1A1A1A] group-hover:text-[#FF6321] transition-colors">{dish.name}</h3>
-                  <span className="text-[10px] font-black text-[#FF632188] uppercase tracking-tighter">{dish.category}</span>
+                  <span className="text-xs font-black text-[#FF632188] uppercase tracking-tight">{dish.category}</span>
                 </div>
                 <div className="flex gap-1 flex-wrap justify-end max-w-[100px]">
                   {dish.time.map(t => (
-                    <span key={t} className="text-[8px] bg-[#F5F5F0] px-1.5 py-0.5 rounded uppercase font-bold text-[#A6998F]">{t}</span>
+                    <span key={t} className="text-[10px] bg-[#F5F5F0] px-1.5 py-0.5 rounded uppercase font-bold text-[#A6998F]">{t}</span>
                   ))}
                 </div>
               </div>

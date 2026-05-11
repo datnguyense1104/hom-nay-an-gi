@@ -134,7 +134,7 @@ export function OnboardingFlow({
           <button onClick={isLast ? onComplete : onNext}
             className="flex-1 py-3 rounded-2xl text-sm font-bold bg-[#FF6321] hover:bg-[#E5551A] text-white transition-all shadow-lg shadow-[#FF632122]"
           >
-            {isLast ? "Hoàn tất 🎉" : "Tiếp theo"}
+            {isLast ? "Hoàn tất" : "Tiếp theo"}
           </button>
         </div>
       </motion.div>

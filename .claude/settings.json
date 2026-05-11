@@ -78,6 +78,26 @@
             "timeout": 30
           }
         ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/dev-rules-reminder.cjs",
+            "_origin": "engineer"
+          },
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/simplify-gate.cjs",
+            "_origin": "engineer"
+          },
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/usage-quota-cache-refresh.cjs",
+            "timeout": 30,
+            "_origin": "engineer"
+          }
+        ]
       }
     ],
     "PreToolUse": [
@@ -129,10 +149,6 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/post-edit-simplify-reminder.cjs"
-          },
-          {
-            "type": "command",
             "command": "node \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/plan-format-kanban.cjs"
           }
         ]
@@ -144,6 +160,26 @@
             "type": "command",
             "command": "node \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/usage-quota-cache-refresh.cjs",
             "timeout": 10
+          }
+        ]
+      }
+    ],
+    "TaskCompleted": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/task-completed-handler.cjs"
+          }
+        ]
+      }
+    ],
+    "TeammateIdle": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/teammate-idle-handler.cjs"
           }
         ]
       }

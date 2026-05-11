@@ -21,7 +21,7 @@ import { SuggestionDisplay } from "./components/suggestion-display";
 import { MealHistorySection } from "./components/meal-history-section";
 import { MenuListView } from "./components/menu-list-view";
 import { OnboardingFlow } from "./components/onboarding-flow";
-import { ActionButtons } from "./components/action-buttons";
+import { ActionButtons, Toast } from "./components/action-buttons";
 import { buildShareUrl } from "./utils/share-utils";
 
 function detectMealTime(): MealTime {
@@ -154,7 +154,7 @@ export default function App() {
             </div>
           )}
           <button onClick={() => setView(v => v === "random" ? "menu" : "random")}
-            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-[10px] font-black uppercase tracking-widest transition-all ${
+            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-black uppercase tracking-widest transition-all ${
               view === "menu" ? "bg-[#FF6321] text-white" : "bg-[#F5F5F0] text-[#A6998F] hover:text-[#FF6321]"
             }`}
           >
@@ -171,7 +171,7 @@ export default function App() {
                 <div className="flex bg-[#F5F5F0] p-1 rounded-xl">
                   {(["Sáng", "Trưa", "Tối", "Khuya"] as MealTime[]).map(meal => (
                     <button key={meal} onClick={() => switchTab(meal)}
-                      className={`flex-1 py-2 text-[10px] font-black uppercase tracking-wider rounded-lg transition-all ${
+                      className={`flex-1 py-2 text-xs font-black uppercase tracking-wider rounded-lg transition-all ${
                         activeTab === meal ? "bg-white text-[#FF6321] shadow-sm" : "text-[#A6998F] hover:text-[#5C4D3F]"
                       }`}
                     >{meal}</button>
@@ -196,7 +196,7 @@ export default function App() {
                 />
                 <ActionButtons
                   onRandomize={randomize} onAiSuggest={handleAiSuggest} onLongOverdue={pickLongOverdue}
-                  isSpinning={isSpinning} isAiLoading={isAiLoading} toast={toast}
+                  isSpinning={isSpinning} isAiLoading={isAiLoading}
                 />
                 <MealHistorySection history={recentDisplayHistory} show={showHistory} onToggle={() => setShowHistory(v => !v)} />
               </main>
@@ -209,11 +209,13 @@ export default function App() {
         </AnimatePresence>
 
         <footer className="px-8 pb-8 text-center border-t border-[#FFF0E6] pt-6 mt-auto">
-          <p className="text-[10px] text-[#A6998F] uppercase tracking-[0.2em] font-black">
+          <p className="text-xs text-[#A6998F] uppercase tracking-[0.2em] font-black">
             Vietnam Cuisine • {new Date().getFullYear()}
           </p>
         </footer>
       </motion.div>
+
+      <Toast message={toast} />
 
       <div className="fixed -bottom-20 -left-20 w-64 h-64 bg-[#FF6321] opacity-5 rounded-full blur-3xl pointer-events-none" />
       <div className="fixed -top-20 -right-20 w-64 h-64 bg-[#FF6321] opacity-5 rounded-full blur-3xl pointer-events-none" />
