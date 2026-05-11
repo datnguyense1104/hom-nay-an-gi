@@ -555,3 +555,270 @@
 {"ts":"2026-04-29T20:49:40.721Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Edit","target":"","note":"tracked-edit","dur":4,"status":"ok","exit":0,"error":""}
 {"ts":"2026-04-29T20:49:40.734Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
 {"ts":"2026-04-29T20:49:40.723Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T17:18:26.993Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":718,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:18:27.339Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"fetched","dur":1108,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:18:46.637Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T17:18:46.808Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":158,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:18:50.960Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:18:50.961Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/README.md\""}
+{"ts":"2026-05-07T17:18:51.516Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:18:51.522Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-07T17:18:58.025Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:18:58.034Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/package.json\""}
+{"ts":"2026-05-07T17:18:58.847Z","hook":"scout-block","event":"PreToolUse","tool":"Glob","target":"*.{json,ts,js,config.*}","note":"Pattern '*.{json,ts,js,config.*}' is too broad for C:\\Users\\pc\\Desktop\\homnayangi\\hom-nay-an-gi","dur":12,"status":"block","exit":2,"error":""}
+{"ts":"2026-05-07T17:18:58.882Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":27,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:19:02.401Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":33,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:19:02.405Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-07T17:19:02.977Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:19:02.999Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-07T17:19:06.298Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:19:06.348Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/vite.config.ts\""}
+{"ts":"2026-05-07T17:19:06.717Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:19:06.720Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-07T17:19:15.694Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:19:15.730Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-07T17:19:16.198Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-07T17:19:16.223Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:25:45.399Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":438,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:25:45.940Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":982,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:30:53.345Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":382,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:30:53.712Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":756,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T17:32:52.785Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":8,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T17:32:53.509Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":740,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T18:03:43.014Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":326,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T18:03:43.435Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":750,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T18:03:48.598Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"clear","dur":646,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:43:48.059Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":684,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:43:49.503Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":2149,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:43:57.025Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":17,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:43:57.040Z","hook":"scout-block","event":"PreToolUse","tool":"Glob","target":"*.md","note":"Pattern '*.md' is too broad for C:\\Users\\pc\\.claude\\projects\\C--Users-pc-Desktop-homnayangi-hom-nay-an-gi\\memory","dur":6,"status":"block","exit":2,"error":""}
+{"ts":"2026-05-07T19:44:03.285Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:44:03.299Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/.claude/projects/C--Users-pc-Desktop-homnayangi-hom-nay-an-gi/memory/MEMORY.md\""}
+{"ts":"2026-05-07T19:44:08.589Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:44:08.601Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/.claude/projects/C--Users-pc-Desktop-homnayangi-hom-nay-an-gi/memory/reference_deployment-server.md\""}
+{"ts":"2026-05-07T19:44:08.638Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:44:09.052Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:44:09.062Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":17,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:44:09.067Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:44:14.196Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:44:14.225Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:44:14.248Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/.claude/projects/C--Users-pc-Desktop-homnayangi-hom-nay-an-gi/memory/MEMORY.md\""}
+{"ts":"2026-05-07T19:44:14.695Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:44:14.714Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:44:14.730Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:47:25.989Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":7,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:47:26.955Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":969,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:47:30.426Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:47:30.442Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":18,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:48:08.336Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:48:11.133Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:48:11.144Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:48:27.458Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":4,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:48:32.695Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:48:32.701Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:48:45.488Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:48:45.496Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":19,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:48:58.955Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:48:58.973Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":19,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:49:04.158Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:49:14.379Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":12,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:49:14.390Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":19,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:49:45.200Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":6,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:49:52.137Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:49:52.150Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/AppData/Local/Temp/claude/C--Users-pc-Desktop-homnayangi-hom-nay-an-gi/6595938e-765f-47f1-88ec-7bcb399209ae/tasks/bab9rt472.output\""}
+{"ts":"2026-05-07T19:49:52.925Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:15.272Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:15.283Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":16,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:18.561Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:23.426Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:23.432Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":18,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:26.805Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:26.821Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":12,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:27.604Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:35.275Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:35.285Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:37.499Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:43.889Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:43.890Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":20,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:54.908Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:57.526Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:50:57.539Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"allowed-command","dur":1,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:51:00.098Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:51:26.258Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:51:26.271Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":18,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:53:07.605Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"fetched","dur":794,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:53:12.880Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:53:12.907Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"/tmp/node_modules/ssh2","note":"node_modules","dur":25,"status":"block","exit":2,"error":""}
+{"ts":"2026-05-07T19:53:15.712Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:53:15.724Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/AppData/Local/Temp\""}
+{"ts":"2026-05-07T19:53:35.460Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"clear","dur":369,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:01.224Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":345,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:01.576Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":700,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:07.413Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:07.440Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/AppData/Local/Temp/claude/C--Users-pc-Desktop-homnayangi-hom-nay-an-gi/6595938e-765f-47f1-88ec-7bcb399209ae/tasks/bab9rt472.output\""}
+{"ts":"2026-05-07T19:55:18.114Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:18.123Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":10,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:22.334Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/README.md\""}
+{"ts":"2026-05-07T19:55:22.339Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":19,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:22.572Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":22,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:22.591Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/.claude/projects/C--Users-pc-Desktop-homnayangi-hom-nay-an-gi/memory/reference_deployment-server.md\""}
+{"ts":"2026-05-07T19:55:27.619Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":18,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:27.629Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-07T19:55:27.826Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:27.845Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/package.json\""}
+{"ts":"2026-05-07T19:55:40.988Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:41.007Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-07T19:55:42.481Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:42.844Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:42.853Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/.gitignore\""}
+{"ts":"2026-05-07T19:55:54.427Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:54.437Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/vite.config.ts\""}
+{"ts":"2026-05-07T19:55:55.252Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:55:55.254Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-07T19:56:10.557Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":3,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:56:10.598Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":20,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:56:10.601Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/Dockerfile\""}
+{"ts":"2026-05-07T19:56:11.255Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:56:11.269Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:56:11.271Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":16,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:56:15.566Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:56:15.600Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/nginx.conf\""}
+{"ts":"2026-05-07T19:56:15.628Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":29,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:56:16.484Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:56:16.519Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":20,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:56:16.547Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:56:20.700Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:56:20.742Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":24,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T19:56:20.745Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/docker-compose.yml\""}
+{"ts":"2026-05-07T19:56:21.279Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:56:21.282Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T19:56:21.283Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"reminder-injected","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:20:59.573Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:20:59.589Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-07T20:21:07.491Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"fetched","dur":921,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:21:11.508Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:21:11.520Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-07T20:21:25.104Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T20:21:28.782Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:21:28.806Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-07T20:21:41.968Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T20:21:47.690Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:21:47.712Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":20,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:22:12.841Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:22:12.845Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:22:16.733Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T20:58:07.675Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":1619,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:58:07.960Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"fetched","dur":1989,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:58:12.576Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"throttled","dur":2250,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T20:58:13.443Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":3025,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:58:20.559Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"throttled","dur":1453,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T20:58:21.130Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":2164,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:58:21.275Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T20:58:21.736Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"resume","dur":453,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:58:40.535Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T20:58:41.180Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":636,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T20:59:32.521Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":10,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T20:59:33.605Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":1099,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:01:59.423Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":12,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T21:02:00.269Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":835,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:05:42.481Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":674,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:05:42.763Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":965,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:05:58.781Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":12,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:05:58.831Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-07T21:05:59.956Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/.claude/projects/c--Users-pc-Desktop-homnayangi-hom-nay-an-gi/memory/reference_deployment-server.md\""}
+{"ts":"2026-05-07T21:05:59.969Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":20,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:06:03.326Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:06:03.340Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/.github/workflows/playwright.yml\""}
+{"ts":"2026-05-07T21:06:11.365Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:06:11.383Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/.github/workflows/deploy.yml\""}
+{"ts":"2026-05-07T21:06:11.390Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:06:11.832Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T21:06:11.843Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T21:06:11.855Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"reminder-injected","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:06:25.582Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:06:25.605Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":18,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:06:25.606Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/.claude/projects/c--Users-pc-Desktop-homnayangi-hom-nay-an-gi/memory/reference_deployment-server.md\""}
+{"ts":"2026-05-07T21:06:26.078Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T21:06:26.081Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:06:26.078Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T21:06:31.471Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":12,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:06:31.523Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-07T21:06:55.841Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T21:09:50.277Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":18,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T21:09:50.911Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":662,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:09:59.939Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:09:59.972Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/.claude/projects/c--Users-pc-Desktop-homnayangi-hom-nay-an-gi/memory/feedback_deploy-command.md\""}
+{"ts":"2026-05-07T21:10:00.018Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":77,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:10:00.403Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T21:10:00.407Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T21:10:00.415Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:10:10.339Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":36,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:10:10.351Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/.claude/projects/c--Users-pc-Desktop-homnayangi-hom-nay-an-gi/memory/MEMORY.md\""}
+{"ts":"2026-05-07T21:10:14.975Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":30,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:10:15.013Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/.claude/projects/c--Users-pc-Desktop-homnayangi-hom-nay-an-gi/memory/MEMORY.md\""}
+{"ts":"2026-05-07T21:10:15.805Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T21:10:15.822Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T21:10:15.887Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Edit","target":"","note":"tracked-edit","dur":49,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:12:29.091Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":1588,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:12:29.412Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"fetched","dur":2009,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:12:31.058Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-07T21:12:31.286Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":235,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:12:35.594Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:12:35.610Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/.claude/projects/c--Users-pc-Desktop-homnayangi-hom-nay-an-gi/memory/feedback_deploy-command.md\""}
+{"ts":"2026-05-07T21:12:35.715Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":40,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:12:35.730Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/.claude/projects/c--Users-pc-Desktop-homnayangi-hom-nay-an-gi/memory/reference_deployment-server.md\""}
+{"ts":"2026-05-07T21:12:52.213Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":12,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:12:52.219Z","hook":"scout-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":18,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-07T21:12:55.524Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-08T13:16:49.740Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":2091,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:16:49.767Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"fetched","dur":2299,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:16:50.176Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-08T13:16:50.781Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"resume","dur":511,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:20:22.264Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":370,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:20:22.751Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":866,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:21:32.881Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":12,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-08T13:21:33.609Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":749,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:28:06.299Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":304,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:28:06.829Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":836,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:29:22.680Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:29:22.724Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":29,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:29:22.728Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/cf_token.txt\""}
+{"ts":"2026-05-08T13:29:23.212Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-08T13:29:23.262Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-08T13:29:23.286Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":21,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:37:15.151Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":739,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:37:15.583Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":1204,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:37:47.617Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:37:47.631Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":18,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-08T13:37:47.660Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/Desktop/cf_token.txt\""}
+{"ts":"2026-05-08T13:37:48.007Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-08T13:37:48.042Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-08T13:37:48.063Z","hook":"post-edit-simplify-reminder","event":"PostToolUse","tool":"Write","target":"","note":"tracked-edit","dur":16,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T04:51:33.768Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"http-401","dur":5057,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-11T04:51:34.172Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":5273,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T04:51:35.924Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T04:51:36.356Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"resume","dur":403,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T05:35:17.252Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"resume","dur":267,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T05:35:21.975Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"timeout","dur":5026,"status":"warn","exit":0,"error":""}
+{"ts":"2026-05-11T06:09:15.767Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":445,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T06:09:15.997Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":711,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T06:09:16.031Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"fetched","dur":813,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T06:09:16.457Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"fetched","dur":1244,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T06:09:44.557Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T06:09:44.686Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":129,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T06:09:53.780Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T06:09:53.824Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/README.md\""}
+{"ts":"2026-05-11T06:09:54.656Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-11T06:09:54.771Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":23,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T06:10:00.249Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":6,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T06:10:00.259Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/src/App.tsx\""}
+{"ts":"2026-05-11T06:10:00.465Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T06:10:00.473Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/src/index.css\""}
+{"ts":"2026-05-11T06:10:05.803Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T06:10:05.806Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/src/components/suggestion-display.tsx\""}
+{"ts":"2026-05-11T06:10:05.900Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T06:10:05.906Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/src/components/action-buttons.tsx\""}
+{"ts":"2026-05-11T06:10:09.790Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":7,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T06:10:09.797Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/src/components/filter-panel.tsx\""}
+{"ts":"2026-05-11T06:10:10.135Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":5,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T06:10:10.137Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/src/components/meal-history-section.tsx\""}
