@@ -778,3 +778,102 @@
 {"ts":"2026-05-11T11:09:22.035Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/src/components/filter-panel.tsx\""}
 {"ts":"2026-05-11T11:09:22.252Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
 {"ts":"2026-05-11T11:09:22.252Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:07:50.539Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":1500,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:07:51.003Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"fetched","dur":2036,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:07:52.006Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"throttled","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:07:52.169Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"resume","dur":147,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:11:01.501Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"clear","dur":414,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:11:03.436Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":333,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:11:03.887Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":785,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:11:10.015Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/README.md\""}
+{"ts":"2026-05-11T13:11:10.052Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:11:10.054Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-11T13:11:10.058Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:11:15.680Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:11:15.696Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/docs/project-overview-pdr.md\""}
+{"ts":"2026-05-11T13:11:15.877Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:11:15.886Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/docs/system-architecture.md\""}
+{"ts":"2026-05-11T13:11:23.584Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:11:23.594Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/docs/project-roadmap.md\""}
+{"ts":"2026-05-11T13:11:24.477Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":21,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:11:24.509Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/src\""}
+{"ts":"2026-05-11T13:12:14.107Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:15:43.034Z","hook":"descriptive-name","event":"PreToolUse","tool":"Write","target":"","note":"","dur":4,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:15:43.042Z","hook":"privacy-block","event":"PreToolUse","tool":"Write","target":"","note":"","dur":12,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:15:43.060Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/presentation.html\""}
+{"ts":"2026-05-11T13:15:43.435Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Write","target":"","note":"non-plan-file","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:15:43.441Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Write","target":"","note":"throttled","dur":7,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:19:08.546Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":1599,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:19:08.908Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"fetched","dur":1984,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:20:32.063Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":364,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:20:32.397Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":699,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:20:52.765Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:20:52.787Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/presentation.html\""}
+{"ts":"2026-05-11T13:21:38.361Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:21:38.361Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:21:44.478Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:21:44.488Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/presentation.html\""}
+{"ts":"2026-05-11T13:21:44.832Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:21:44.834Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:21:49.616Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:21:49.622Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/presentation.html\""}
+{"ts":"2026-05-11T13:21:50.113Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:21:50.120Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Edit","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:21:54.467Z","hook":"privacy-block","event":"PreToolUse","tool":"Edit","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:21:54.472Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/presentation.html\""}
+{"ts":"2026-05-11T13:21:54.921Z","hook":"plan-format-kanban","event":"PostToolUse","tool":"Edit","target":"","note":"non-plan-file","dur":0,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:27:21.338Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":1522,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:27:21.760Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"fetched","dur":1972,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:27:36.924Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:27:37.250Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":327,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:27:42.597Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:27:42.607Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/.claude/projects/c--Users-pc-Desktop-homnayangi-hom-nay-an-gi/memory/reference_deployment-server.md\""}
+{"ts":"2026-05-11T13:27:42.671Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:27:42.676Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"C:/Users/pc/.claude/projects/c--Users-pc-Desktop-homnayangi-hom-nay-an-gi/memory/feedback_deploy-command.md\""}
+{"ts":"2026-05-11T13:27:51.223Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:27:51.225Z","hook":"scout-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":10,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:28:22.800Z","hook":"scout-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:28:22.851Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:28:23.045Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":11,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:28:23.048Z","hook":"scout-block","event":"PreToolUse","tool":"Glob","target":"*.{json,toml,config.*}","note":"Pattern '*.{json,toml,config.*}' is too broad for project root","dur":5,"status":"block","exit":2,"error":""}
+{"ts":"2026-05-11T13:28:51.980Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":13,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:28:51.996Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:28:52.002Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/Dockerfile\""}
+{"ts":"2026-05-11T13:28:51.984Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/docker-compose.yml\""}
+{"ts":"2026-05-11T13:29:05.830Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":15,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:29:05.846Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/nginx.conf\""}
+{"ts":"2026-05-11T13:31:50.032Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":7,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:31:50.732Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":715,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:31:55.675Z","hook":"privacy-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:31:55.696Z","hook":"scout-block","event":"PreToolUse","tool":"Glob","target":"","note":"","dur":14,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:31:59.255Z","hook":"privacy-block","event":"PreToolUse","tool":"Read","target":"","note":"","dur":9,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:31:59.262Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi/docs/deployment-guide.md\""}
+{"ts":"2026-05-11T13:37:08.781Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":308,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:37:09.313Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":799,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:42:30.406Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":271,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:42:30.982Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":858,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:47:01.487Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"recently-injected","dur":9,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T13:47:02.151Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":675,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:50:29.031Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":334,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:50:29.375Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":687,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:56:09.149Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":532,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:56:09.491Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"fetched","dur":881,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:56:55.016Z","hook":"privacy-block","event":"PreToolUse","tool":"Bash","target":"","note":"","dur":8,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T13:56:55.061Z","hook":"scout-block","event":"PreToolUse","tool":"","target":"","note":"","dur":0,"status":"crash","exit":0,"error":"path should be a `path.relative()`d string, but got \"c:/Users/pc/Desktop/homnayangi/hom-nay-an-gi\""}
+{"ts":"2026-05-11T13:56:59.417Z","hook":"usage-quota-cache-refresh","event":"PostToolUse","tool":"Bash","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T14:03:23.469Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":1864,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T14:03:23.737Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"fetched","dur":2157,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T14:05:08.434Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":4487,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T14:05:08.591Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"fetched","dur":4697,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T14:05:09.391Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T14:05:09.787Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"resume","dur":368,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T14:05:22.644Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T14:05:22.959Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"resume","dur":313,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T14:05:41.417Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"throttled","dur":3,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T14:05:42.003Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"resume","dur":553,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T14:05:50.431Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"throttled","dur":2,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T14:05:50.858Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"resume","dur":374,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-11T14:05:55.827Z","hook":"usage-quota-cache-refresh","event":"UserPromptSubmit","tool":"","target":"","note":"throttled","dur":1,"status":"skip","exit":0,"error":""}
+{"ts":"2026-05-11T14:05:56.279Z","hook":"dev-rules-reminder","event":"UserPromptSubmit","tool":"","target":"","note":"context-injected","dur":443,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-13T07:00:01.921Z","hook":"session-init","event":"SessionStart","tool":"","target":"","note":"startup","dur":4013,"status":"ok","exit":0,"error":""}
+{"ts":"2026-05-13T07:00:02.284Z","hook":"usage-quota-cache-refresh","event":"SessionStart","tool":"","target":"","note":"fetched","dur":4548,"status":"ok","exit":0,"error":""}
