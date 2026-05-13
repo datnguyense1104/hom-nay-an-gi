@@ -6,8 +6,8 @@ coverage/
 *.log
 .env*
 !.env.example
-.claude
-.opencode
+.claude/
+.opencode/
 
 # AI tool outputs (auto-generated, not source)
 repomix-output.xml
